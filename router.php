@@ -5,11 +5,14 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/' => 'controllers/index.php',
     '/about' => 'controllers/about.php',
+    '/babyswimming' => 'controllers/babyswimming.php',
     '/contact' => 'controllers/contact.php',
+    '/duogroupsessions' => 'controllers/duogroupsessions.php',
+    '/individualsessions' => 'controllers/individualsessions.php',
+    '/packages' => 'controllers/packages.php',
     '/pool' => 'controllers/pool.php',
-    '/progress' => 'controllers/progress.php',
+    '/privateevent' => 'controllers/privateevent.php',
     '/register' => 'controllers/register.php',
-    '/singlelessons' => 'controllers/singlelessons.php',
     '/students' => 'controllers/students.php',
     '/trainer' => 'controllers/trainer.php',
 ];

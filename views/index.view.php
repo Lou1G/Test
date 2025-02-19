@@ -7,7 +7,7 @@
     <div class="slider-track">
       <img src="images/AzadiLogoBred.png" alt="Azadi Swim Academy" class="slider-image">
       <img src="images/GruppeBillede.jpg" alt="Gruppe Billede" class="slider-image">
-      <!-- Tilføj videoen her -->
+      <img src="images/PoolForsideBillede.jpg" alt="Pool Forside Billede" class="slider-image"> <!-- Nyt billede tilføjet her -->
       <video class="slider-video" autoplay loop muted>
         <source src="images/GruppeVid.mp4" type="video/mp4">
         Din browser understøtter ikke video tag.
@@ -19,7 +19,8 @@
   <div class="dots flex justify-center space-x-2 mt-4">
     <span id="dot-1" class="dot filled"></span>
     <span id="dot-2" class="dot"></span>
-    <span id="dot-3" class="dot"></span> <!-- Tilføjet ekstra prik -->
+    <span id="dot-3" class="dot"></span>
+    <span id="dot-4" class="dot"></span> <!-- Tilføjet ekstra prik -->
   </div>
 
   <!-- Ny sektion med to kolonner til åbningstider og jubilæum -->
@@ -44,7 +45,7 @@
       <p>Søndag &emsp; Lukket</p>
 
       <!-- Tilføj billedet her -->
-      <img src="images/ForsideBillede.jpg" alt="Forsidebillede" style="width: 100%; margin: 20px 0;">
+      <img src="images/ForsideBillede.jpg" alt="Forsidebillede" class="forsidebillede" style="width: 100%; margin: 20px 0;">
 
       <!-- Kontakt din træner sektionen -->
       <h3 style="margin-top: 30px; font-weight: bold;">Kontakt din træner</h3>
@@ -55,32 +56,28 @@
     </div>
 
     <div class="column">
-      <p><strong>Jubilæum:</strong></p>
-      <p style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold;">Vi fejrer 1 år 🥳</p>
-      <p style="margin-bottom: 15px;">Wow, hvor skal jeg starte! Jeg er simpelthen så taknemmelig og fyldt med glæde over alt det, vi har opnået siden jeg startede Azadi Swim Academy den 8. september 2023. Det har været en uforglemmelig rejse, og jeg vil gerne sige tusind, tusind tak til jer alle – uden jeres støtte, ville dette ikke have været muligt! ❤️</p>
-      <p style="margin-bottom: 15px;">Som 17-årig grundlagde jeg akademiet med en drøm om at skabe et sted, hvor både børn og voksne kan lære at svømme på en tryg, sjov og motiverende måde. Efter syv år med erfaring fra forskellige svømmeklubber og en brændende passion for svømning, vidste jeg, at det var tid til at gøre noget anderledes – og det er præcis, hvad vi har gjort! 🙌</p>
-      <p style="margin-bottom: 15px;">Jeg vil gerne rette en særlig stor tak til mine fantastiske trænere, der hver dag arbejder utrætteligt for at hjælpe med at bringe min drøm til live. I gør det muligt at skabe et akademi, hvor hver enkelt elev føler sig set, hørt og motiveret – og uden jeres engagement ville vi ikke være, hvor vi er i dag. Tak for jeres dedikation, jeres kærlighed til faget og jeres støtte – det betyder alt for mig! 🌟</p>
-      <p style="margin-bottom: 15px;">I har alle været en del af denne fantastiske rejse, og det betyder alt for mig. Til hver eneste elev, forælder, træner og alle, der har støttet os – tak! Jeg kunne ikke være mere stolt af vores lille, men stærke svømmefamilie. Sammen har vi undervist over 80 elever, set dem udvikle deres færdigheder i vandet, og skabt et fællesskab, hvor alle føler sig velkomne. 💙</p>
-      <p style="margin-bottom: 15px;">Jeg tror på, at tålmodighed, positiv forstærkning og personlig tilpasning er nøglen til at opnå store resultater i svømning. Og jeg ser frem til at fortsætte med at hjælpe jer alle med at nå jeres fulde potentiale – vi er kun lige begyndt! 🚀</p>
-      <p style="margin-bottom: 15px;">Endnu en gang – tusind tak for jeres tillid, støtte og loyalitet. Jeg glæder mig til at se, hvad fremtiden bringer for Azadi Swim Academy, og jeg er så spændt på at tage jer alle med på den næste del af rejsen.</p>
-      <p style="margin-bottom: 15px;">Med kærlighed og taknemmelighed,</p>
-      <p style="margin-bottom: 15px;">Anita Azadi</p>
-    </div>
-  </section>
+      <p><strong>Hos Azadi Swim Academy handler svømning ikke om baner – det handler om teknik, ro og personlig udvikling i vandet. Vi lejer hele svømmehallen, så du får en uforstyrret og fokuseret svømmeoplevelse uden kaos fra banesvømning.</strong></p>
+      <p>Vores undervisning er skræddersyet til både børn og voksne, uanset niveau. Uden forstyrrelser fra andre svømmere skaber vi et trygt miljø, hvor du kan forbedre din teknik i dit eget tempo.</p>
+      <p style="margin-top: 20px;"><strong>Hvad gør os unikke?</strong></p>
+      <p>🌊 Ingen banesvømning – kun fokus på dig</p>
+      <p>🎯 Teknik og ro i centrum – lær korrekt svømning uden stress</p>
+      <p>💡 Hele svømmehallen for dig selv – ingen distraktioner</p>
+      <p>🏊 Personlig undervisning – skræddersyet til dine mål</p>
+      <p>Oplev svømning på en ny måde – book din første session i dag!</p>
 
-  <!-- Adresse og Google Maps visning -->
-  <section class="address-section">
-    <h3>Adresse</h3>
-    <p>Arnhem Alle 11, 2791</p>
-    <div class="map-container">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.1234567890123!2d12.1234567890123!3d55.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1234567890123456!2sArnhem%20Alle%2011%2C%202791!5e0!3m2!1sen!2sdk!4v1611234567890!5m2!1sen!2sdk"
-        width="600"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
+      <!-- Adresse og Google Maps visning -->
+      <h3 style="margin-top: 57px;">Vores placering</h3>
+      <p>Arnhem Alle 11, 2791</p>
+      <div class="map-container" style="margin-top: 20px;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.1234567890123!2d12.1234567890123!3d55.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1234567890123456!2sArnhem%20Alle%2011%2C%202791!5e0!3m2!1sen!2sdk!4v1611234567890!5m2!1sen!2sdk"
+          width="728"
+          height="540"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
   </section>
 
@@ -169,13 +166,19 @@
     will-change: transform;
   }
 
-  .slider-image {
+  .slider-image,
+  .slider-video {
     width: 100%;
     height: auto;
     min-width: 100%;
     object-fit: cover;
     user-select: none;
     -webkit-user-drag: none;
+  }
+
+  .forsidebillede {
+    height: 540px;
+    object-fit: cover;
   }
 
   .dots {

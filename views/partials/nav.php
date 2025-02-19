@@ -54,6 +54,7 @@
             <div class="absolute left-0 z-10 hidden w-32 bg-gray-800 rounded-md shadow-lg group-hover:block">
               <a href="/trainer" class="<?= urlIs('/trainer') ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Trænere</a>
               <a href="/about" class="<?= $_SERVER['REQUEST_URI'] === '/about' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">About</a>
+              <a href="/students" class="<?= $_SERVER['REQUEST_URI'] === '/students' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Elever</a>
             </div>
           </div>
           <!-- Desktop dropdown for Undervisning -->
@@ -62,9 +63,11 @@
               Undervisning
             </button>
             <div class="absolute left-0 z-10 hidden w-32 bg-gray-800 rounded-md shadow-lg group-hover:block">
-              <a href="/progress" class="<?= $_SERVER['REQUEST_URI'] === '/progress' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Forløb</a>
-              <a href="/singlelessons" class="<?= $_SERVER['REQUEST_URI'] === '/singlelessons' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Enkelt timer</a>
-              <a href="/students" class="<?= $_SERVER['REQUEST_URI'] === '/students' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Elever</a>
+              <a href="/individualsessions" class="<?= $_SERVER['REQUEST_URI'] === '/individualsessions' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Individuelle sessioner</a>
+              <a href="/packages" class="<?= $_SERVER['REQUEST_URI'] === '/packages' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Pakker</a>
+              <a href="/duogroupsessions" class="<?= $_SERVER['REQUEST_URI'] === '/duogroupsessions' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Duo-/gruppetimer</a>
+              <a href="/babyswimming" class="<?= $_SERVER['REQUEST_URI'] === '/babyswimming' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Babysvømning</a>
+              <a href="/privateevent" class="<?= $_SERVER['REQUEST_URI'] === '/privateevent' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Privat event</a>
             </div>
           </div>
           <!-- Ny knap til "Lej Pool" -->
@@ -92,9 +95,12 @@
       <a href="/" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
       <a href="/trainer" class="mobile-link <?= urlIs('/trainer') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Trænere</a>
       <a href="/about" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/about' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
-      <a href="/progress" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/progress' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Forløb</a>
-      <a href="/singlelessons" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/singlelessons' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Enkel timer</a>
       <a href="/students" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/students' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Elever</a>
+      <a href="/individualsessions" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/individualsessions' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Individuelle sessioner</a>
+      <a href="/packages" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/packages' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Pakker</a>
+      <a href="/duogroupsessions" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/duogroupsessions' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Duo-/gruppetimer</a>
+      <a href="/babyswimming" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/babyswimming' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Babysvømning</a>
+      <a href="/privateevent" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/privateevent' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Privat event</a>
       <a href="/pool" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/pool' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Leje af pool</a>
       <a href="/contact" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/contact' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Kontakt</a>
       <a href="/register" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/register' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Tilmeld</a>
