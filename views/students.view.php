@@ -250,43 +250,6 @@
                 <p><strong>Træner:</strong> Karina Anita Azadi</p>
             </div>
         </div>
-
-        <!-- Boks 8 -->
-        <div class="student-box" id="box8">
-            <div class="media-container">
-                <button class="nav-button left" onclick="navigateMedia('box8', -1)">&#10094;</button>
-                <img src="images/Student8.jpeg" alt="Student 8">
-                <div class="video-container" data-index="1">
-                    <video>
-                        <source src="images/Student8Vid.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <div class="video-container" data-index="2" style="display: none;">
-                    <video>
-                        <source src="images/Student8Vid2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <button class="nav-button right" onclick="navigateMedia('box8', 1)">&#10095;</button>
-            </div>
-            <p>Emma</p>
-        </div>
-
-        <!-- Boks 9 -->
-        <div class="student-box" id="box9">
-            <div class="media-container">
-                <div class="video-container" style="display: block;">
-                    <video controls>
-                        <source src="images/Student9Vid.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-            <div class="student-details" style="padding-top: 20px; text-align: left;">
-                <p><strong>Peter, 37 år – Svømmeforløb</strong></p>
-            </div>
-        </div>
     </main>
 
     <?php require('partials/footer.php') ?>

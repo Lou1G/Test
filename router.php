@@ -6,8 +6,10 @@ $routes = [
     '/' => 'controllers/index.php',
     '/about' => 'controllers/about.php',
     '/contact' => 'controllers/contact.php',
+    '/pool' => 'controllers/pool.php',
     '/progress' => 'controllers/progress.php',
     '/register' => 'controllers/register.php',
+    '/singlelessons' => 'controllers/singlelessons.php',
     '/students' => 'controllers/students.php',
     '/trainer' => 'controllers/trainer.php',
 ];

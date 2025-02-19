@@ -26,10 +26,10 @@
   <section class="two-columns">
     <div class="column">
       <p><strong>Træningstider:</strong></p>
-      <p>Mandag &emsp; 16.30-20.30</p>
-      <p>Tirsdag &emsp; 16.30-20.30</p>
-      <p>Onsdag &emsp; 16.30-20.30</p>
-      <p>Torsdag &emsp; 16.30-20.30</p>
+      <p>Mandag &emsp; 16.30-20.00</p>
+      <p>Tirsdag &emsp; 16.30-20.00</p>
+      <p>Onsdag &emsp; 16.30-20.00</p>
+      <p>Torsdag &emsp; 16.30-20.00</p>
       <p>Fredag &emsp; Lukket</p>
       <p>Lørdag &emsp; Lukket</p>
       <p>Søndag &emsp; Lukket</p>
@@ -49,18 +49,8 @@
       <!-- Kontakt din træner sektionen -->
       <h3 style="margin-top: 30px; font-weight: bold;">Kontakt din træner</h3>
       <p>Har du spørgsmål eller brug for hjælp kan du kontakte din træner her.</p>
-      <a href="/contact" style="text-decoration: none;">
-        <button style="
-        margin-top: 10px;
-        padding: 10px 20px;
-        font-size: 1rem;
-        font-weight: bold;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      ">Kontakt din træner</button>
+      <a href="/contact" class="signup-button"> 
+        Kontakt din træner</a>
       </a>
     </div>
 
@@ -75,6 +65,22 @@
       <p style="margin-bottom: 15px;">Endnu en gang – tusind tak for jeres tillid, støtte og loyalitet. Jeg glæder mig til at se, hvad fremtiden bringer for Azadi Swim Academy, og jeg er så spændt på at tage jer alle med på den næste del af rejsen.</p>
       <p style="margin-bottom: 15px;">Med kærlighed og taknemmelighed,</p>
       <p style="margin-bottom: 15px;">Anita Azadi</p>
+    </div>
+  </section>
+
+  <!-- Adresse og Google Maps visning -->
+  <section class="address-section">
+    <h3>Adresse</h3>
+    <p>Arnhem Alle 11, 2791</p>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.1234567890123!2d12.1234567890123!3d55.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1234567890123456!2sArnhem%20Alle%2011%2C%202791!5e0!3m2!1sen!2sdk!4v1611234567890!5m2!1sen!2sdk"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </div>
   </section>
 
@@ -138,14 +144,19 @@
       updateSlider();
     });
   });
-
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % dots.length;
-    updateSlider();
-  }, 5000);
 </script>
 
 <style>
+  .signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 90px;      
+  }
+
   .slider-container {
     overflow: hidden;
     width: 100%;

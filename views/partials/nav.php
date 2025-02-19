@@ -63,9 +63,12 @@
             </button>
             <div class="absolute left-0 z-10 hidden w-32 bg-gray-800 rounded-md shadow-lg group-hover:block">
               <a href="/progress" class="<?= $_SERVER['REQUEST_URI'] === '/progress' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Forløb</a>
+              <a href="/singlelessons" class="<?= $_SERVER['REQUEST_URI'] === '/singlelessons' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Enkelt timer</a>
               <a href="/students" class="<?= $_SERVER['REQUEST_URI'] === '/students' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Elever</a>
             </div>
           </div>
+          <!-- Ny knap til "Lej Pool" -->
+          <a href="/pool" class="<?= $_SERVER['REQUEST_URI'] === '/pool' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Leje af pool</a>
           <a href="/contact" class="<?= $_SERVER['REQUEST_URI'] === '/contact' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Kontakt</a>
           <a href="/register" class="<?= $_SERVER['REQUEST_URI'] === '/register' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Tilmeld</a>
         </div>
@@ -90,7 +93,9 @@
       <a href="/trainer" class="mobile-link <?= urlIs('/trainer') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Trænere</a>
       <a href="/about" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/about' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
       <a href="/progress" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/progress' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Forløb</a>
+      <a href="/singlelessons" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/singlelessons' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Enkel timer</a>
       <a href="/students" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/students' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Elever</a>
+      <a href="/pool" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/pool' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Leje af pool</a>
       <a href="/contact" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/contact' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Kontakt</a>
       <a href="/register" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/register' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Tilmeld</a>
     </div>
