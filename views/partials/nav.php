@@ -73,7 +73,7 @@
           <!-- Ny knap til "Lej Pool" -->
           <a href="/pool" class="<?= $_SERVER['REQUEST_URI'] === '/pool' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Leje af pool</a>
           <a href="/contact" class="<?= $_SERVER['REQUEST_URI'] === '/contact' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Kontakt</a>
-          <a href="/register" class="<?= $_SERVER['REQUEST_URI'] === '/register' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Tilmeld</a>
+          <a href="https://azadi-swim-academy.planway.com/" class="hover:bg-gray-700 hover:text-white text-gray-300 rounded-md px-3 py-2 text-sm font-medium">Tilmeld</a>
         </div>
       </div>
       <div class="-mr-2 flex md:hidden">
@@ -103,7 +103,7 @@
       <a href="/privateevent" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/privateevent' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Privat event</a>
       <a href="/pool" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/pool' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Leje af pool</a>
       <a href="/contact" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/contact' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Kontakt</a>
-      <a href="/register" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/register' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Tilmeld</a>
+      <a href="https://azadi-swim-academy.planway.com/" class="mobile-link hover:bg-gray-700 hover:text-white 'text-gray-300 block rounded-md px-3 py-2 text-base font-medium">Tilmeld</a>
     </div>
   </div>
 </nav>

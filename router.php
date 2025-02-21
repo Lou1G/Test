@@ -12,7 +12,6 @@ $routes = [
     '/packages' => 'controllers/packages.php',
     '/pool' => 'controllers/pool.php',
     '/privateevent' => 'controllers/privateevent.php',
-    '/register' => 'controllers/register.php',
     '/students' => 'controllers/students.php',
     '/trainer' => 'controllers/trainer.php',
 ];
