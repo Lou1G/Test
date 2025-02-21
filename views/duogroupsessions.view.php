@@ -2,6 +2,12 @@
 <?php require('partials/nav.php') ?>
 <?php require('partials/banner.php') ?>
 
+<style>
+    .list-call li::before {
+        content: "📞 ";
+    }
+</style>
+
 <main>
     <section class="container px-4 py-8">
         <h1 class="text-2xl font-bold mb-4">Duo-/gruppetimer (2-3 personer)</h1>
@@ -15,8 +21,12 @@
             <li>2 personer: Læring i fællesskab med individuel vejledning.</li>
             <li>3 personer: Perfekt til søskende eller venner, der ønsker en sjov og lærerig oplevelse.</li>
         </ul>
+        <ul class="list-call pl-0 mb-4">
+            <li>Vigtigt: Hvis der opstår problemer med tilmeldingen, eller hvis du vil sikre, at vi er opmærksomme på, hvem der er i gruppe med hvem, bedes du ringe til os.</li>
+        </ul>
+
         <p class="mb-4">Kontakt os i dag for at booke din tid – vi glæder os til at hjælpe dig på din rejse mod bedre resultater!</p>
-        <a href="/register" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Tilmeld dig her</a>
+        <a href="https://azadi-swim-academy.planway.com/" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Tilmeld dig her</a>
 
         <h2 class="text-xl font-bold mb-4 mt-4">Vigtige informationer og restriktioner hos Azadi Swim Academy</h2>
         <h3 class="text-lg font-bold mb-2">Adgang til Boblebadet</h3>

@@ -9,13 +9,16 @@
 <main style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 20px; margin-top: 50px;">
     <!-- Trænerkort 1 -->
     <div class="feature-card">
-        <img src="/images/AzadiLogo.png" alt="Azadi Logo" class="img-fluid" />
-        <h3>Bla bla bla</h3>
+        <img src="/images/Trainer1.jpg" alt="Trainer 1" class="img-fluid" />
+        <h3><strong>Jeg hedder Karina Azadi.</strong></h3>
+        <p>
+            Jeg underviser både børn og voksne på alle niveauer og har stor erfaring med at tilpasse undervisningen til den enkelte. Mit fokus er at skabe en tryg og motiverende læringsoplevelse, hvor du kan udvikle dig i dit eget tempo.
+        </p>
     </div>
 
     <!-- Trænerkort 2 -->
     <div class="feature-card">
-        <img src="/images/Trainer1.jpg" alt="Trainer 1" class="img-fluid" />
+        <img src="/images/Trainer2.jpg" alt="Trainer 2" class="img-fluid" />
         <h3><strong>Jeg hedder Caroline Koch.</strong></h3>
         <p>
             Jeg har erfaring med både hold- og eneundervisning. Særligt er jeg rutineret i undervisning af yngre børn i alderen 2 - 10 år,
@@ -27,7 +30,7 @@
 
     <!-- Trænerkort 3 -->
     <div class="feature-card">
-        <img src="/images/Trainer2.jpg" alt="Trainer 2" class="img-fluid" />
+        <img src="/images/Trainer3.jpg" alt="Trainer 3" class="img-fluid" />
         <h3><strong>Mit navn er Karl-Emil Sterll</strong></h3>
         <p>
             Jeg har erfaring i både hold og med en undervisning, især for børn i alderen 8-12 år.
@@ -38,8 +41,12 @@
 
     <!-- Trænerkort 4 -->
     <div class="feature-card">
-        <img src="/images/AzadiLogo.png" alt="Azadi Logo" class="img-fluid" />
-        <h3>Bla bla bla</h3>
+        <img src="/images/Trainer4.jpg" alt="Trainer 4" class="img-fluid" />
+        <h3><strong>Jeg hedder Kimia Zolfaghari</strong></h3>
+        <p>
+            Jeg underviser babyer, børn og voksne på alle niveauer – fra nybegyndere til elitesvømmere. Derudover hjælper jeg personer med vandskræk med at opbygge tryghed i vandet.
+            Min undervisning handler om teknik, selvtillid og glæde ved svømning. Jeg er tålmodig og engageret i at hjælpe alle med at udvikle sig, uanset udgangspunkt.
+        </p>
     </div>
 </main>
 

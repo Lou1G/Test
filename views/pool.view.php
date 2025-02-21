@@ -41,10 +41,12 @@
             <li>Rengøring af pool og faciliteter før og efter brug</li>
             <li>Mulighed for at tilkøbe en svømmetræner eller instruktør til eventet</li>
             <li>Mulighed for forplejning (drikkevarer, snacks) mod ekstra gebyr</li>
+            <li>Boblebad til rådighed</li>
+            <li>Mulighed for pyntning, hvis det er en specifik begivenhed</li>
         </ul>
 
         <p>Få en unik svømmeoplevelse uden forstyrrelser – book din private pooltid i dag!🏊‍♂️💙</p>
-        <a href="/register" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Book nu</a>
+        <a href="https://azadi-swim-academy.planway.com/" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Book nu</a>
     </section>
 </main>
 

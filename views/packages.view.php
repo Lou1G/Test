@@ -17,7 +17,7 @@
             <li>Faste ugentlige sessioner – Hold motivationen oppe med en fast træningsplan.</li>
         </ul>
         <p class="mb-4">Kontakt os i dag for at booke din tid – vi glæder os til at hjælpe dig på din rejse mod bedre resultater!</p>
-        <a href="/register" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Tilmeld dig her</a>
+        <a href="https://azadi-swim-academy.planway.com/" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded no-underline">Tilmeld dig her</a>
 
         <h2 class="text-xl font-bold mb-4 mt-4">Vigtige informationer og restriktioner hos Azadi Swim Academy</h2>
         <h3 class="text-lg font-bold mb-2">Adgang til Boblebadet</h3>
