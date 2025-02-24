@@ -242,4 +242,30 @@
   .opening-hours td {
     padding: 2px;
   }
+
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+  }
+
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .two-columns {
+      flex-direction: column;
+    }
+
+    .opening-hours {
+      width: 100%;
+    }
+  }
 </style>

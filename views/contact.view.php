@@ -237,5 +237,21 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       margin: 0 auto 25px;
     }
+
+    @media (max-width: 600px) {
+      .register-box, .contact-box {
+        width: 90%;
+        padding: 20px;
+      }
+
+      .register-box button, .new-registration-button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+
+      .success-message {
+        font-size: 16px;
+      }
+    }
   </style>
 </html>
