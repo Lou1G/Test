@@ -1,5 +1,5 @@
 <?php
 
-$heading = "babyswimming";
+$heading = "Babysvømning";
 
 require "views/babyswimming.view.php";

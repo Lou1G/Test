@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<main style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 20px; margin-top: 50px;">
+<main style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 20px; margin-top: 30px;">
     <!-- Trænerkort 1 -->
     <div class="feature-card">
         <img src="/images/Trainer1.jpg" alt="Trainer 1" class="img-fluid" />
@@ -53,8 +53,13 @@
 <?php require('partials/footer.php') ?>
 
 <style>
+    body {
+        background-color: #f1f5f9;
+    }
+
     .feature-card {
-        background-color: #f8f9fa;
+        background-color: #f9fbfc;
+        border: 1px solid #eee;
         border-radius: 8px;
         padding: 30px;
         width: 400px;

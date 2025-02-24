@@ -5,16 +5,16 @@
 <main>
     <!-- Sektion med billede og tekst -->
     <section class="about-section container px-4 text-center">
-        <div class="row gx-5">
+        <div class="about-container">
             <!-- Første kolonne: Billedet -->
-            <div class="col">
+            <div class="col about-box">
                 <div class="p-3 about-image-container">
                     <img src="images/KarinaBillede.jpg" alt="Anita Azadi" class="about-image">
                 </div>
             </div>
 
             <!-- Anden kolonne: Teksten -->
-            <div class="col">
+            <div class="col about-box">
                 <div class="p-3 about-text">
                     <p>Jeg hedder Anita Azadi og er grundlægger af Azadi Swim Academy.
                     Min svømmekarriere begyndte i 2019, og efter flere års erfaring i forskellige svømmeklubber blev jeg færdiguddannet som svømmeinstruktør i 2023. Gennem min rejse har jeg opbygget en stærk passion for svømning og en dyb forståelse for undervisningsteknikker, der hjælper folk med at udvikle deres færdigheder i vandet.
@@ -32,16 +32,42 @@
 </main>
 
 <style>
+    body {
+        background-color: #f1f5f9;
+    }
+
     .about-section {
-        background-color: #ffffff;
+        background-color: #f9fbfc;
         padding: 40px 20px;
         margin-top: 50px;
-        /* Tilføjer margin-top for at rykke sektionen ned */
+        border: 1px solid #eee;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .about-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .about-box {
+        background-color: #ffffff;
+        border: 1px solid #efefef;
+        padding: 20px;
+        flex: 1;
+    }
+
+    .about-image-container {
+        display: flex;
+        justify-content: center;
     }
 
     .about-image {
         width: 100%;
-        max-width: 380px;
+        max-width: 547px;
         height: auto;
         border-radius: 0;
     }

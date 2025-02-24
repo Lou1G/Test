@@ -1,15 +1,4 @@
 <?php require('partials/head.php') ?>
-
-<style>
-    .list-check li::before {
-        content: "✔ ";
-    }
-
-    .list-call li::before {
-        content: "📞 ";
-    }
-</style>
-
 <?php require('partials/nav.php') ?>
 <?php require('partials/banner.php') ?>
 
@@ -56,3 +45,17 @@
 </main>
 
 <?php require('partials/footer.php') ?>
+
+<style>
+    body {
+        background-color: #f7fafc;
+    }
+
+    .list-check li::before {
+        content: "✔ ";
+    }
+
+    .list-call li::before {
+        content: "📞 ";
+    }
+</style>

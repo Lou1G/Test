@@ -7,7 +7,7 @@
     <div class="slider-track">
       <img src="images/AzadiLogoBred.png" alt="Azadi Swim Academy" class="slider-image">
       <img src="images/GruppeBillede.jpg" alt="Gruppe Billede" class="slider-image">
-      <img src="images/PoolForsideBillede.jpg" alt="Pool Forside Billede" class="slider-image"> <!-- Nyt billede tilføjet her -->
+      <img src="images/PoolForsideBillede.jpg" alt="Pool Forside Billede" class="slider-image">
       <video class="slider-video" autoplay loop muted>
         <source src="images/GruppeVid.mp4" type="video/mp4">
         Din browser understøtter ikke video tag.
@@ -20,7 +20,7 @@
     <span id="dot-1" class="dot filled"></span>
     <span id="dot-2" class="dot"></span>
     <span id="dot-3" class="dot"></span>
-    <span id="dot-4" class="dot"></span> <!-- Tilføjet ekstra prik -->
+    <span id="dot-4" class="dot"></span>
   </div>
 
   <!-- Ny sektion med to kolonner til åbningstider og jubilæum -->
@@ -80,13 +80,12 @@
       </div>
     </div>
   </section>
-
-  <?php require('partials/footer.php') ?>
 </main>
 
+<?php require('partials/footer.php') ?>
 
 <script>
-  // Slider JavaScript (som tidligere)
+  // Slider JavaScript
   const sliderTrack = document.querySelector('.slider-track');
   const dots = document.querySelectorAll('.dot');
   let currentIndex = 0;
@@ -144,6 +143,10 @@
 </script>
 
 <style>
+  body {
+    background-color: #f1f5f9;
+  }
+
   .signup-button {
     display: inline-block;
     padding: 10px 20px;
@@ -202,19 +205,11 @@
     opacity: 1;
   }
 
-  /* Styling til sektioner med hvid baggrund */
-  section {
-    background-color: #ffffff;
-  }
-
-  /* Styling til to-kolonne sektion */
   .two-columns {
     display: flex;
     justify-content: space-between;
-    /* Sørger for, at kolonnerne er på samme linje med plads imellem */
     padding: 20px;
-    margin-top: 70px;
-    /* Justeret margin-top for at rykke sektion 2 ned */
+    margin-top: 20px;
   }
 
   .column {
@@ -226,7 +221,6 @@
   .column p {
     display: flex;
     justify-content: space-between;
-    /* Placerer tekstene på hver sin side */
     margin: 5px 0;
   }
 

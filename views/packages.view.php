@@ -2,6 +2,12 @@
 <?php require('partials/nav.php') ?>
 <?php require('partials/banner.php') ?>
 
+<style>
+    body {
+        background-color: #f1f5f9;
+    }
+</style>
+
 <main>
     <section class="container px-4 py-8">
         <h1 class="text-2xl font-bold mb-4">Pakker</h1>

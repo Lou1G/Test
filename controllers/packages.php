@@ -1,5 +1,5 @@
 <?php
 
-$heading = "packages";
+$heading = "Pakker";
 
 require "views/packages.view.php";

@@ -1,5 +1,5 @@
 <?php
 
-$heading = "Private Event";
+$heading = "Privat event";
 
 require "views/privateevent.view.php";

@@ -3,115 +3,11 @@
 
 <?php require('partials/head.php') ?>
 
-<style>
-    .student-box {
-        background-color: #f8f9fa;
-        border-radius: 8px;
-        padding: 30px;
-        width: 400px;
-        /* height: 850px; */
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s ease-in-out;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .student-box:hover {
-        transform: translateY(-5px);
-    }
-
-    .media-container {
-        position: relative;
-        width: 100%;
-        padding-top: 125%;
-        overflow: hidden;
-    }
-
-    .media-container img,
-    .media-container .video-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .video-container {
-        display: none;
-        background-color: black;
-    }
-
-    .video-container video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-    }
-
-    .nav-button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        font-size: 18px;
-        cursor: pointer;
-        width: 30px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        z-index: 2;
-        transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-    }
-
-    .nav-button:hover {
-        background-color: rgba(80, 80, 80, 1);
-        /* Mørkegrå nuance */
-        box-shadow: 0 0 10px rgba(80, 80, 80, 0.8);
-        /* Lys grå skygge */
-    }
-
-    .nav-button.left {
-        left: 5px;
-    }
-
-    .nav-button.right {
-        right: 5px;
-    }
-
-    .student-box p {
-        margin-top: 20px;
-    }
-
-    .student-details {
-        background-color: #ffffff;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        max-width: 400px;
-        margin: 20px auto;
-        font-size: 1.1rem;
-    }
-
-    .student-details p {
-        margin: 10px 0;
-        line-height: 1.5;
-    }
-
-    .student-details p strong {
-        font-weight: bold;
-    }
-</style>
-
 <body>
     <?php require('partials/nav.php') ?>
     <?php require('partials/banner.php') ?>
 
-    <main style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 20px; margin-top: 50px;">
+    <main style="display: flex; flex-wrap: wrap; justify-content: center; gap: 55px; padding: 20px; margin-top: 30px;">
         <!-- Boks 1 -->
         <div class="student-box" id="box1">
             <div class="media-container">
@@ -317,5 +213,112 @@
         });
     </script>
 </body>
+
+<style>
+    body {
+        background-color: #f1f5f9;
+    }
+    
+    .student-box {
+        background-color: #f9fbfc;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 30px;
+        width: 400px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .student-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .media-container {
+        position: relative;
+        width: 100%;
+        padding-top: 125%;
+        overflow: hidden;
+    }
+
+    .media-container img,
+    .media-container .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-container {
+        display: none;
+        background-color: black;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        z-index: 2;
+        transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    }
+
+    .nav-button:hover {
+        background-color: rgba(80, 80, 80, 1);
+        box-shadow: 0 0 10px rgba(80, 80, 80, 0.8);
+    }
+
+    .nav-button.left {
+        left: 5px;
+    }
+
+    .nav-button.right {
+        right: 5px;
+    }
+
+    .student-box p {
+        margin-top: 20px;
+    }
+
+    .student-details {
+        background-color: #fff;
+        border: 1px solid #efefef;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 20px auto;
+        font-size: 1.1rem;
+    }
+
+    .student-details p {
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+
+    .student-details p strong {
+        font-weight: bold;
+    }
+</style>
 
 </html>

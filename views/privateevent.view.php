@@ -3,6 +3,10 @@
 <?php require('partials/banner.php') ?>
 
 <style>
+    body {
+        background-color: #f1f5f9;
+    }
+    
     .list-call li::before {
         content: "📞 ";
     }

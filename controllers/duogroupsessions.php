@@ -1,5 +1,5 @@
 <?php
 
-$heading = "duo group sessions";
+$heading = "Duo-/gruppetimer";
 
 require "views/duogroupsessions.view.php";

@@ -41,7 +41,7 @@
     <div class="flex h-16 items-center justify-between">
       <div class="flex items-center">
         <a href="/" class="flex items-center">
-          <span class="text-white text-lg font-bold">Azadi Swim Academy</span>
+          <span class="text-white text-lg">Azadi Swim Academy</span>
         </a>
       </div>
       <div class="hidden md:block relative">
@@ -53,8 +53,8 @@
             </button>
             <div class="absolute left-0 z-10 hidden w-32 bg-gray-800 rounded-md shadow-lg group-hover:block">
               <a href="/trainer" class="<?= urlIs('/trainer') ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Trænere</a>
-              <a href="/about" class="<?= $_SERVER['REQUEST_URI'] === '/about' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">About</a>
               <a href="/students" class="<?= $_SERVER['REQUEST_URI'] === '/students' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">Elever</a>
+              <a href="/about" class="<?= $_SERVER['REQUEST_URI'] === '/about' ? 'active-dropdown' : 'text-gray-300' ?> block px-3 py-2 text-sm font-medium">About</a>
             </div>
           </div>
           <!-- Desktop dropdown for Undervisning -->
@@ -94,8 +94,8 @@
     <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
       <a href="/" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
       <a href="/trainer" class="mobile-link <?= urlIs('/trainer') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Trænere</a>
-      <a href="/about" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/about' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
       <a href="/students" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/students' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Elever</a>
+      <a href="/about" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/about' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
       <a href="/individualsessions" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/individualsessions' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Individuelle sessioner</a>
       <a href="/packages" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/packages' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Pakker</a>
       <a href="/duogroupsessions" class="mobile-link <?= $_SERVER['REQUEST_URI'] === '/duogroupsessions' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Duo-/gruppetimer</a>

@@ -1,5 +1,5 @@
 <?php
 
-$heading = "Trainer";
+$heading = "Trænere";
 
 require "views/trainer.view.php";
