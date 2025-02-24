@@ -27,22 +27,26 @@
   <section class="two-columns">
     <div class="column">
       <p><strong>Træningstider:</strong></p>
-      <p>Mandag &emsp; 16.30-20.00</p>
-      <p>Tirsdag &emsp; 16.30-20.00</p>
-      <p>Onsdag &emsp; 16.30-20.00</p>
-      <p>Torsdag &emsp; 16.30-20.00</p>
-      <p>Fredag &emsp; Lukket</p>
-      <p>Lørdag &emsp; Lukket</p>
-      <p>Søndag &emsp; Lukket</p>
+      <table class="opening-hours">
+        <tr><td>Mandag</td><td>16.30-20.00</td></tr>
+        <tr><td>Tirsdag</td><td>16.30-20.00</td></tr>
+        <tr><td>Onsdag</td><td>16.30-20.00</td></tr>
+        <tr><td>Torsdag</td><td>16.30-20.00</td></tr>
+        <tr><td>Fredag</td><td>Lukket</td></tr>
+        <tr><td>Lørdag</td><td>Lukket</td></tr>
+        <tr><td>Søndag</td><td>Lukket</td></tr>
+      </table>
 
       <p style="margin-top: 20px;"><strong>Telefontider:</strong></p>
-      <p>Mandag &emsp; 14.00-20.00</p>
-      <p>Tirsdag &emsp; 14.00-20.00</p>
-      <p>Onsdag &emsp; 14.00-20.00</p>
-      <p>Torsdag &emsp; 14.00-20.00</p>
-      <p>Fredag &emsp; Lukket</p>
-      <p>Lørdag &emsp; Lukket</p>
-      <p>Søndag &emsp; Lukket</p>
+      <table class="opening-hours">
+        <tr><td>Mandag</td><td>14.00-20.00</td></tr>
+        <tr><td>Tirsdag</td><td>14.00-20.00</td></tr>
+        <tr><td>Onsdag</td><td>14.00-20.00</td></tr>
+        <tr><td>Torsdag</td><td>14.00-20.00</td></tr>
+        <tr><td>Fredag</td><td>Lukket</td></tr>
+        <tr><td>Lørdag</td><td>Lukket</td></tr>
+        <tr><td>Søndag</td><td>Lukket</td></tr>
+      </table>
 
       <!-- Tilføj billedet her -->
       <img src="images/ForsideBillede.jpg" alt="Forsidebillede" class="forsidebillede" style="width: 100%; margin: 20px 0;">
@@ -50,7 +54,7 @@
       <!-- Kontakt din træner sektionen -->
       <h3 style="margin-top: 30px; font-weight: bold;">Kontakt din træner</h3>
       <p>Har du spørgsmål eller brug for hjælp kan du kontakte din træner her.</p>
-      <a href="/contact" class="signup-button"> 
+      <a href="/contact" class="signup-button hover:bg-blue-700"> 
         Kontakt din træner</a>
       </a>
     </div>
@@ -66,7 +70,7 @@
       <p>Oplev svømning på en ny måde – book din første session i dag!</p>
 
       <!-- Adresse og Google Maps visning -->
-      <h3 style="margin-top: 57px;">Vores placering</h3>
+      <p style="margin-top: 70px;"><strong>Vores placering</strong></p>
       <p>Arnhem Alle 11, 2791</p>
       <div class="map-container" style="margin-top: 20px;">
         <iframe
@@ -154,7 +158,8 @@
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-bottom: 90px;      
+    margin-bottom: 40px;    
+    margin-top: 10px;  
   }
 
   .slider-container {
@@ -226,5 +231,15 @@
 
   .column p:first-child {
     font-weight: bold;
+  }
+
+  .opening-hours {
+    width: 49%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  .opening-hours td {
+    padding: 2px;
   }
 </style>
