@@ -10,7 +10,7 @@
     <!-- Trænerkort 1 -->
     <div class="feature-card">
         <img src="/images/Trainer1.jpg" alt="Trainer 1" class="img-fluid" />
-        <h3><strong>Jeg hedder Karina Azadi.</strong></h3>
+        <h3><strong>Jeg hedder Karina Azadi</strong></h3>
         <p>
             Jeg underviser både børn og voksne på alle niveauer og har stor erfaring med at tilpasse undervisningen til den enkelte. Mit fokus er at skabe en tryg og motiverende læringsoplevelse, hvor du kan udvikle dig i dit eget tempo.
         </p>
@@ -19,7 +19,7 @@
     <!-- Trænerkort 2 -->
     <div class="feature-card">
         <img src="/images/Trainer2.jpg" alt="Trainer 2" class="img-fluid" />
-        <h3><strong>Jeg hedder Caroline Koch.</strong></h3>
+        <h3><strong>Jeg hedder Caroline Koch</strong></h3>
         <p>
             Jeg har erfaring med både hold- og eneundervisning. Særligt er jeg rutineret i undervisning af yngre børn i alderen 2 - 10 år,
             og har mange kompetencer indenfor vandtilvænning, samt den grundlæggende basis for at lære børn at svømme.

@@ -23,6 +23,14 @@
             <li>6 timer: 2.899 kr.</li>
             <li>8 timer: 3.899 kr.</li>
         </ul>
+        
+        <h2 class="text-xl font-semibold mb-2">2 timers booking:</h2>
+        <ul class="list-disc pl-5 mb-4">
+            <li>Op til 2 personer: 999 kr.</li>
+            <li>3-6 personer: 1.799 kr.</li>
+            <li>6-9 personer: 2.499 kr.</li>
+            <li>Tilføj ekstra tid: 500 kr. per time</li>
+        </ul>
         <p>Skræddersyet arrangement? <a href="/contact" class="text-blue-500 underline">Kontakt os</a> for en specialaftale.</p>
 
         <h2 class="text-xl font-semibold mb-2">Hvad er med i prisen?</h2>
@@ -36,6 +44,7 @@
             <li>Mulighed for forplejning (drikkevarer, snacks) mod ekstra gebyr</li>
             <li>Boblebad til rådighed</li>
             <li>Mulighed for pyntning, hvis det er en specifik begivenhed</li>
+            <li>Mulighed for musik under arrangementet</li>
         </ul>
 
         <p>Få en unik svømmeoplevelse uden forstyrrelser – book din private pooltid i dag!🏊‍♂️💙</p>
